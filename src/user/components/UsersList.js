@@ -1,16 +1,20 @@
 import React from 'react';
 import './UsersList.css';
-import UserItem from './UsersList';
+import Card from "../../shared/components/UIElements/Avatar/Card";
+import UserItem from './UserItem';
+
 
 const UserList = props => {
     if (props.items.length === 0) {
-        return <div class="center">
-            <h2>No users found.</h2>
+        return <div className="center">
+            <Card>
+                <h2>No users found.</h2>
+            </Card>
         </div>
     }
-    return <ul>
+    return <ul className="users-list">
         {props.items.map(user => (
-            <UserTime
+            <UserItem
                 key={user.id}
                 id={user.id}
                 image={user.image}
