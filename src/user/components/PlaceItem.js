@@ -1,5 +1,5 @@
 import React from 'react';
-import './PlaceItem';
+import '../components/PlaceItem.css';
 import Card from "../../shared/components/UIElements/Avatar/Card";
 
 const PLaceItem = props => {

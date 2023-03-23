@@ -1,5 +1,5 @@
 import React from 'react';
-import './PlaceList';
+import '../components/PlaceList.css';
 import Card from "../../shared/components/UIElements/Avatar/Card";
 import PlaceItem from './PlaceItem';
 
