@@ -1,10 +1,8 @@
-# Project Title
+# BlogIt
+Post your travel location and pictures on my free web app. To get started hit the log in! 
+<!-- ## Getting Started
 
-A short description about the project and/or client.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. -->
 
 ### Prerequisites
 
