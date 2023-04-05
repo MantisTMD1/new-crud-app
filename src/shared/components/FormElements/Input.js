@@ -12,6 +12,8 @@ const Input = (props) => {
         placeholder={props.placeholder}
       />
     );
+
+    
   return (
     <div className={`form-control`}>
       <label htmlfor={props.id}>{props.label}</label>
